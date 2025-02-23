@@ -40,28 +40,94 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: Topic #1
 
 Describe the purpose of your survey:
 ```
 write your answer here...
+
+The purpose of this survey is to understand the factors contributing to high employee turnover at a large tech company, particularly among entry- and lower-level employees. The goal is to identify key areas of dissatisfaction and potential improvements to enhance employee retention and job satisfaction.
+
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
 write your answer here...
+
+Target population: Current and recently departed entry- and lower-level employees of the tech company.
+
+Sampling frame: Employee database records from the past 12 months, including current employees and those who have resigned.
+
+Sampling units: Individual employees selected from the employee database.
+
+Observational units: The responses provided by each employee regarding job satisfaction and reasons for turnover.
+
 ```
 
 Your 5-10 question survey:
 ```
 1. write your question here...
+How long have you worked (or did you work) at the company?
+
+A. Less than 3 months
+B. 3 months to 6 months
+C. 6 months to 9 months
+D. 9 months to 12 months
+
 2. write your question here...
+What was your primary reason for leaving (or considering leaving) the company?
+
+A. Compensation
+B. Lack of career advancement
+C. Work-life balance
+D. Management issues
+
 3. write your question here...
+How satisfied are you with your compensation and benefits?
+
+A. Very satisfied
+B. Somewhat satisfied
+C. Somewhat dissatisfied
+D. Very dissatisfied
+
 4. write your question here...
+How would you describe your work-life balance at the company?
+
+A. Excellent
+B. Good
+C. Fair
+D. Poor
+E. Very poor
+
 5. write your question here...
+How effective do you feel company leadership is in addressing employee concerns?
+
+A. Very effective
+B. Somewhat effective
+C. Neutral
+D. Somewhat ineffective
+E. Very ineffective
+
 6. write your question here... (optional)
+Do you feel you had sufficient opportunities for career growth and development?
+
+A. Yes
+B. No
+
 7. write your question here... (optional)
+How would you rate the workplace culture?
+
+A. Very positive
+B. Somewhat positive
+C. Somewhat negative
+D. Very negative
+
 8. write your question here... (optional)
+Do you feel adequately supported by your manager or team?
+
+A. Yes
+B. No
+
 9. write your question here... (optional)
 10. write your question here... (optional)
 ```
@@ -72,6 +138,33 @@ Identify and describe survey features:
 
 ```
 write your answer here
+1. Sample type: Probability sampling (stratified random sampling, ensuring representation of different departments and tenure levels).
+
+2. Sample size: The sample includes a representative subset of the employee population, ideally 500-1000 respondents for statistical reliability.
+
+3. Target population: Individuals who have worked at the company within the past 12 months at entry- or lower-level positions.
+
+4. Sampling frame: Employee records maintained by the HR department.
+
+5. Survey mode(s): Online survey distributed via company email or external emails for former employees.
+
+6. Timeline: Conducted over a one-month period.
+
+7. Response rate: Expected to be around 50-70%, depending on engagement efforts.
+
+8. Weights: If needed, responses will be weighted to ensure proportional representation across departments and tenure levels.
+
+9. Data processing: Data will be anonymized, aggregated, and analyzed using statistical software.
+
+10. Cleaning, imputation, etc.: Responses will be reviewed for completeness, and missing data will be addressed through imputation methods if necessary.
+
+11. Sources of error: Potential biases include non-response bias and self-selection bias.
+
+12. Limitations, known biases, etc.: Results may be influenced by employees who have particularly strong opinions, either positive or negative, skewing findings.
+
+13. Link to documentation and any additional sources used:
+1. https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=4430
+
 ```
 
 ## Rubric
