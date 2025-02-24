@@ -17,7 +17,8 @@ Please write your explanation here...
 
 The simulation model in whitby_covid_tracing.py involves several sampling steps:
 
-1. Infection Sampling: Function: simulate_infections() (hypothetical function name if applicable)
+1. Infection Sampling: 
+Function: simulate_infections() (hypothetical function name if applicable)
 
 Process: 10% of a population of 1000 individuals are randomly chosen as infected.
 
@@ -39,7 +40,7 @@ Sample Size: 20 individuals (on average).
 Distribution: Binomial distribution due to the nature of the Bernoulli trials.
 
 3. Secondary Tracing: 
-trace_secondary_contacts() (hypothetical function name if applicable)
+Functiuon: trace_secondary_contacts() (hypothetical function name if applicable)
 
 Process: Events with at least two traced attendees trigger further tracing.
 
@@ -61,15 +62,10 @@ The peaks and spread of the data vary between runs, making exact replication cha
 
 Reproducibility Analysis:
 Effect of Reducing Repetitions to 100
-
 When the number of repetitions in the simulation is reduced from 1000 to 100, noticeable differences emerge in the histogram:
-
 Increased variability in the histogram’s shape due to a smaller sample size.
-
 Less smoothness, making it harder to discern underlying patterns.
-
 Greater fluctuations between runs, highlighting the lack of reproducibility.
-
 The histogram may exhibit more spikes or irregularities, as random effects play a larger role when fewer repetitions are used.
 
 Improving Reproducibility:
