@@ -53,11 +53,8 @@ Distribution: Conditional probability based on event attendance.
 Comparison with Whitby’s Blog Post:
 The generated graphs resemble those in Whitby’s blog post, though exact replication is affected by randomness.
 Observed Differences from the Blog Post:
-
 While the overall trends are similar, the exact shapes of the histograms differ slightly due to random variability.
-
 Some runs show a higher variance in the number of traced infections compared to Whitby’s graphs.
-
 The peaks and spread of the data vary between runs, making exact replication challenging without controlling for randomness.
 
 Reproducibility Analysis:
