@@ -17,17 +17,60 @@ Please write your explanation here...
 
 The simulation model in whitby_covid_tracing.py involves several sampling steps:
 
-Infection Sampling: 10% of 1000 individuals are randomly infected.
+1. Infection Sampling: Function: simulate_infections() (hypothetical function name if applicable)
 
-Primary Tracing: 20% of infected individuals are traced through a Bernoulli trial.
+Process: 10% of a population of 1000 individuals are randomly chosen as infected.
 
-Secondary Tracing: Events with at least two traced attendees trigger further tracing of infected individuals.
+Sampling Frame: The entire population of 1000 individuals.
+
+Sample Size: 100 individuals.
+
+Distribution: Assumes a uniform random selection process.
+
+2. Primary Tracing: 
+Function: trace_primary_contacts() (hypothetical function name if applicable)
+
+Process: 20% of the infected individuals are traced using a Bernoulli trial (random sampling with probability 0.2).
+
+Sampling Frame: The 100 infected individuals.
+
+Sample Size: 20 individuals (on average).
+
+Distribution: Binomial distribution due to the nature of the Bernoulli trials.
+
+3. Secondary Tracing: 
+trace_secondary_contacts() (hypothetical function name if applicable)
+
+Process: Events with at least two traced attendees trigger further tracing.
+
+Sampling Frame: The subset of traced individuals attending an event.
+
+Sample Size: Varies depending on the traced attendees.
+
+Distribution: Conditional probability based on event attendance.
 
 Comparison with Whitby’s Blog Post:
 The generated graphs resemble those in Whitby’s blog post, though exact replication is affected by randomness.
+Observed Differences from the Blog Post:
+
+While the overall trends are similar, the exact shapes of the histograms differ slightly due to random variability.
+
+Some runs show a higher variance in the number of traced infections compared to Whitby’s graphs.
+
+The peaks and spread of the data vary between runs, making exact replication challenging without controlling for randomness.
 
 Reproducibility Analysis:
-Reducing repetitions from 1000 to 100 increases variability, making results inconsistent across runs.
+Effect of Reducing Repetitions to 100
+
+When the number of repetitions in the simulation is reduced from 1000 to 100, noticeable differences emerge in the histogram:
+
+Increased variability in the histogram’s shape due to a smaller sample size.
+
+Less smoothness, making it harder to discern underlying patterns.
+
+Greater fluctuations between runs, highlighting the lack of reproducibility.
+
+The histogram may exhibit more spikes or irregularities, as random effects play a larger role when fewer repetitions are used.
 
 Improving Reproducibility:
 To ensure consistent outputs, these modifications were made:
