@@ -138,29 +138,29 @@ Identify and describe survey features:
 
 ```
 write your answer here
-1. Sample type: Probability sampling (stratified random sampling, ensuring representation of different departments and tenure levels).
+1. Sample Type: Probability sampling (stratified random sampling, ensuring representation of different demographic groups and geographic areas).
 
-2. Sample size: The sample includes a representative subset of the employee population, ideally 500-1000 respondents for statistical reliability.
+2. Sample Size: Approximately 20,000 respondents.
 
-3. Target population: Individuals who have worked at the company within the past 12 months at entry- or lower-level positions.
+3. Target Population: Individuals aged 15 and older residing in Canada’s 10 provinces.
 
-4. Sampling frame: Employee records maintained by the HR department.
+4. Sampling Frame: Households listed in the Canadian Labour Force Survey frame.
 
-5. Survey mode(s): Online survey distributed via company email or external emails for former employees.
+5. Survey Mode(s): Computer-assisted telephone interviewing (CATI) and electronic questionnaire (EQ).
 
-6. Timeline: Conducted over a one-month period.
+6. Timeline: Data collection occurred throughout 2018.
 
-7. Response rate: Expected to be around 50-70%, depending on engagement efforts.
+7. Response Rate: Approximately 45-50%.
 
-8. Weights: If needed, responses will be weighted to ensure proportional representation across departments and tenure levels.
+8. Weights: Survey weights were applied to adjust for design and non-response biases, ensuring the data is representative of the Canadian population.
 
-9. Data processing: Data will be anonymized, aggregated, and analyzed using statistical software.
+9. Data Processing: Data was processed using validation checks, coding, and outlier detection techniques.
 
-10. Cleaning, imputation, etc.: Responses will be reviewed for completeness, and missing data will be addressed through imputation methods if necessary.
+10. Cleaning, Imputation, etc.: Missing data was addressed through statistical imputation methods to maintain data integrity.
 
-11. Sources of error: Potential biases include non-response bias and self-selection bias.
+11. Sources of Error: Potential biases include non-response bias, recall bias, and measurement errors from self-reported data.
 
-12. Limitations, known biases, etc.: Results may be influenced by employees who have particularly strong opinions, either positive or negative, skewing findings.
+12. Limitations, Known Biases, etc.: The survey may underrepresent specific groups with lower response rates, such as younger individuals or those with lower internet access.
 
 13. Link to documentation and any additional sources used:
 1. https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=4430
