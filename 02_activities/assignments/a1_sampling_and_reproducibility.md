@@ -15,6 +15,40 @@ Alter the code so that it is reproducible. Describe the changes you made to the 
 ```
 Please write your explanation here...
 
+The simulation model in whitby_covid_tracing.py involves several sampling steps:
+
+Infection Sampling: 10% of 1000 individuals are randomly infected.
+
+Primary Tracing: 20% of infected individuals are traced through a Bernoulli trial.
+
+Secondary Tracing: Events with at least two traced attendees trigger further tracing of infected individuals.
+
+Comparison with Whitby’s Blog Post:
+The generated graphs resemble those in Whitby’s blog post, though exact replication is affected by randomness.
+
+Reproducibility Analysis:
+Reducing repetitions from 1000 to 100 increases variability, making results inconsistent across runs.
+
+Improving Reproducibility:
+To ensure consistent outputs, these modifications were made:
+Set a fixed seed (np.random.seed(42)).
+Use a for loop for controlled execution order.
+Standardize event tracing selection.
+
+Code Change:
+
+Before:
+results = [simulate_event(m) for m in range(1000)]
+
+After:
+np.random.seed(42)
+results = [simulate_event(m) for m in range(1000)]
+
+Effects:
+Identical histograms on repeated runs.
+Reduced random variability.
+Improved reliability for future analysis.
+
 ```
 
 

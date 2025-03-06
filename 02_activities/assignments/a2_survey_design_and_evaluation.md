@@ -40,28 +40,94 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: Topic #1
 
 Describe the purpose of your survey:
 ```
 write your answer here...
+
+The purpose of this survey is to understand the factors contributing to high employee turnover at a large tech company, particularly among entry- and lower-level employees. The goal is to identify key areas of dissatisfaction and potential improvements to enhance employee retention and job satisfaction.
+
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
 write your answer here...
+
+Target population: Current and recently departed entry- and lower-level employees of the tech company.
+
+Sampling frame: Employee database records from the past 12 months, including current employees and those who have resigned.
+
+Sampling units: Individual employees selected from the employee database.
+
+Observational units: The responses provided by each employee regarding job satisfaction and reasons for turnover.
+
 ```
 
 Your 5-10 question survey:
 ```
 1. write your question here...
+How long have you worked (or did you work) at the company?
+
+A. Less than 3 months
+B. 3 months to 6 months
+C. 6 months to 9 months
+D. 9 months to 12 months
+
 2. write your question here...
+What was your primary reason for leaving (or considering leaving) the company?
+
+A. Compensation
+B. Lack of career advancement
+C. Work-life balance
+D. Management issues
+
 3. write your question here...
+How satisfied are you with your compensation and benefits?
+
+A. Very satisfied
+B. Somewhat satisfied
+C. Somewhat dissatisfied
+D. Very dissatisfied
+
 4. write your question here...
+How would you describe your work-life balance at the company?
+
+A. Excellent
+B. Good
+C. Fair
+D. Poor
+E. Very poor
+
 5. write your question here...
+How effective do you feel company leadership is in addressing employee concerns?
+
+A. Very effective
+B. Somewhat effective
+C. Neutral
+D. Somewhat ineffective
+E. Very ineffective
+
 6. write your question here... (optional)
+Do you feel you had sufficient opportunities for career growth and development?
+
+A. Yes
+B. No
+
 7. write your question here... (optional)
+How would you rate the workplace culture?
+
+A. Very positive
+B. Somewhat positive
+C. Somewhat negative
+D. Very negative
+
 8. write your question here... (optional)
+Do you feel adequately supported by your manager or team?
+
+A. Yes
+B. No
+
 9. write your question here... (optional)
 10. write your question here... (optional)
 ```
@@ -72,6 +138,33 @@ Identify and describe survey features:
 
 ```
 write your answer here
+1. Sample Type: Probability sampling (stratified random sampling, ensuring representation of different demographic groups and geographic areas).
+
+2. Sample Size: Approximately 20,000 respondents.
+
+3. Target Population: Individuals aged 15 and older residing in Canada’s 10 provinces.
+
+4. Sampling Frame: Households listed in the Canadian Labour Force Survey frame.
+
+5. Survey Mode(s): Computer-assisted telephone interviewing (CATI) and electronic questionnaire (EQ).
+
+6. Timeline: Data collection occurred throughout 2018.
+
+7. Response Rate: Approximately 45-50%.
+
+8. Weights: Survey weights were applied to adjust for design and non-response biases, ensuring the data is representative of the Canadian population.
+
+9. Data Processing: Data was processed using validation checks, coding, and outlier detection techniques.
+
+10. Cleaning, Imputation, etc.: Missing data was addressed through statistical imputation methods to maintain data integrity.
+
+11. Sources of Error: Potential biases include non-response bias, recall bias, and measurement errors from self-reported data.
+
+12. Limitations, Known Biases, etc.: The survey may underrepresent specific groups with lower response rates, such as younger individuals or those with lower internet access.
+
+13. Link to documentation and any additional sources used:
+1. https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=4430
+
 ```
 
 ## Rubric
